@@ -185,51 +185,11 @@ main{
 
 /* HOVER */
 
-.main-section:hover #b1{
+.main-section:hover > .img-folder > img:last-child{
     display: block;
 }
 
-.main-section:hover #a1{
-    display: none;
-}
-
-.main-section:hover #b2{
-    display: block;
-}
-
-.main-section:hover #a2{
-    display: none;
-}
-
-.main-section:hover #b3{
-    display: block;
-}
-
-.main-section:hover #a3{
-    display: none;
-}
-
-.main-section:hover #b4{
-    display: block;
-}
-
-.main-section:hover #a4{
-    display: none;
-}
-
-.main-section:hover #b5{
-    display: block;
-}
-
-.main-section:hover #a5{
-    display: none;
-}
-
-.main-section:hover #b6{
-    display: block;
-}
-
-.main-section:hover #a6{
+.main-section:hover > .img-folder > img:first-child{
     display: none;
 }
 
