@@ -32,6 +32,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .right{
@@ -90,6 +91,144 @@
     MAIN
 */
 
+main{
+    padding: 50px 0;
+}
+
+.card{
+    width: calc((100% - 30px) / 3);
+}
+
+.card:nth-child(2), .card:nth-child(5){
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.card{
+    margin: 0 0 50px 0;
+}
+
+.card > .main-section img{
+    width: 100%;
+    display: block;
+}
+
+.card > .main-section > .img-folder > img:last-child{
+    display: none;
+}
+
+.main-section{
+    position: relative;
+}
+
+.wishlist{
+    position: absolute;
+    top: 5px;
+    right: 0;
+    padding: 10px;
+    background-color: white;
+}
+
+.discount{
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+}
+
+.discount > span{
+    display: inline-block;
+    color: white;
+    padding: 5px 10px;
+}
+
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: green;
+}
+
+.secondary-section > span{
+    display: block;
+    margin: 3px 0;
+}
+
+.secondary-section > span > strong{
+    color: red;
+}
+
+.brand{
+    font-size: 0.8em;
+}
+
+.id-article{
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.secondary-section > span > small{
+    text-decoration: line-through;
+}
+
+
+
+
+/* HOVER */
+
+.main-section:hover #b1{
+    display: block;
+}
+
+.main-section:hover #a1{
+    display: none;
+}
+
+.main-section:hover #b2{
+    display: block;
+}
+
+.main-section:hover #a2{
+    display: none;
+}
+
+.main-section:hover #b3{
+    display: block;
+}
+
+.main-section:hover #a3{
+    display: none;
+}
+
+.main-section:hover #b4{
+    display: block;
+}
+
+.main-section:hover #a4{
+    display: none;
+}
+
+.main-section:hover #b5{
+    display: block;
+}
+
+.main-section:hover #a5{
+    display: none;
+}
+
+.main-section:hover #b6{
+    display: block;
+}
+
+.main-section:hover #a6{
+    display: none;
+}
+
+
+
+
+
+
 
 
 
@@ -101,6 +240,16 @@
 /*
     DEBUG
 */
+
+/* .debug .card{
+    min-height: 600px;
+    border: 1px dashed black;
+} */
+
+
+
+
+
 
 /* .debug .background-header{
     background-color: orangered;
