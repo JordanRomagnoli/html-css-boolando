@@ -45,6 +45,14 @@
     HEADER
 */
 
+header{
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
 .background-header{
     background-color: #ff6900;
 }
@@ -93,6 +101,7 @@
 
 main{
     padding: 50px 0;
+    margin-top: 70px;
 }
 
 .card{
@@ -227,40 +236,50 @@ main{
 
 
 
-
-
-
-
-
-
-
-
-
-
 /*
-    DEBUG
+    FOOTER 
 */
 
-/* .debug .card{
-    min-height: 600px;
-    border: 1px dashed black;
-} */
-
-
-
-
-
-
-/* .debug .background-header{
-    background-color: orangered;
-} 
-
-.debug  .menu-bar{
-    border: 1px dashed black;
+.background-footer{
+    background-color: #1a1a1a;
     min-height: 80px;
-    background-color: aqua;
+    padding: 30px 0;
 }
 
-.debug  .menu-bar > *{
-    background-color: blue;
-} */
+.space-between{
+    display: flex;
+    justify-content: space-between;
+}
+
+.space-between > *{
+    color: white;
+}
+
+.policy h3, .social h4{
+    margin-bottom: 10px;
+}
+
+.social h4{
+    font-size: 0.8em;
+}
+
+.social ul, .policy ul{
+    list-style: none;
+}
+
+.policy ul li{
+    display: inline-block;
+    margin-right: 8px;
+    font-size: 0.9em;
+}
+
+.policy ul a, .social ul a{ 
+    text-decoration: none;
+    color: white;
+}
+
+.social ul li{
+    display: inline-block;
+    margin-left: 5px;
+    font-size: 1.1em;
+}
