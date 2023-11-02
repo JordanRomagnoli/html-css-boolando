@@ -22,19 +22,96 @@
     margin: 0 auto;
 }
 
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
 /*
     HEADER
 */
+
+.background-header{
+    background-color: #ff6900;
+}
+
+.menu-bar{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px 0;
+}
+
+.menu-bar > *{
+    width: calc(100% / 3);
+    padding: 10px 0;
+}
+
+.menu-bar > .select > ul{
+    list-style: none;
+}
+
+.menu-bar > .select a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 5px 0;
+}
+
+.menu-bar > .select li{
+    display: inline-block;
+}
+
+.menu-bar > .select li:not(:last-child){
+    margin-right: 3px;
+}
+
+.menu-bar > .logo > img{
+    height: 30px;
+}
+
+
+
 
 /*
     MAIN
 */
 
 
+
+
+
+
+
+
+
 /*
     DEBUG
 */
 
-.debug, .debug > div{
+/* .debug .background-header{
+    background-color: orangered;
+} 
+
+.debug  .menu-bar{
     border: 1px dashed black;
+    min-height: 80px;
+    background-color: aqua;
 }
+
+.debug  .menu-bar > *{
+    background-color: blue;
+} */
